@@ -370,7 +370,7 @@ class Modmail(commands.Bot):
                 category=categ
                 )
             await channel.edit(topic=topic)
-            await channel.send('<@&397965364073463808>', embed=self.format_info(message))
+            await channel.send('<@&372031948916391938>', embed=self.format_info(message))
 
     async def on_message(self, message):
         if message.author.bot:
